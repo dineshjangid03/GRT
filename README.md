@@ -1,6 +1,6 @@
 # GRT
 
-This student management project is a web-based application built using Java as the primary programming language. The project utilizes the Hibernate framework for object-relational mapping and Spring Security for user authentication and authorization. The front-end of the application is developed using HTML, CSS, and JavaScript to create a user-friendly interface. The application allows users to manage and organize student information, including adding new students, editing existing student information, and viewing student details.
+This student management project is a web-based application built using Java as the primary programming language. The project utilizes the Hibernate framework for object-relational mapping and Spring Security for user authentication and authorization. MySQL is used as the database management system to store and manage the student information. The front-end of the application is developed using HTML, CSS, and JavaScript to create a user-friendly interface. The application allows users to manage and organize student information, including adding new students, editing existing student information, and viewing student details.
 
 
 ### login
