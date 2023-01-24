@@ -159,7 +159,7 @@
 
         pro_data=JSON.stringify(pro_data)
 
-        let api_link=`http://student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students`
+        let api_link=`http://localhost:8888/students`
         let response=await fetch(api_link,{
             method:"PUT",
             body:pro_data,

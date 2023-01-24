@@ -167,7 +167,7 @@
         let password = document.getElementById("password1").value;
         let auth = btoa(`${username}:${password}`);
 
-        fetch('http://student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/signIn', {
+        fetch('http://localhost:8888/signIn', {
             headers: {
                 'Authorization': `Basic ${auth}`
             }
