@@ -298,7 +298,7 @@
     async function demo(){
         let token=user.token
         console.log(token)
-        fetch(`Student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students`,{
+        fetch(`http://student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students`,{
             headers: {
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
@@ -353,7 +353,7 @@
 
     async function del(data){
         let token=user.token
-        let api_link=`Student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students/${data.email}`
+        let api_link=`http://student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students/${data.email}`
         let response=await fetch(api_link,{
             method:"DELETE",
             headers: {
@@ -390,7 +390,7 @@
 
         data=JSON.stringify(data)
 
-        let api=`Student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students`
+        let api=`http://student-env.eba-inmyrfdh.ap-south-1.elasticbeanstalk.com/students`
 
         let res=await fetch(api,{
             method:"POST",
